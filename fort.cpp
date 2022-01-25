@@ -77,8 +77,6 @@ void Loop(SDK::UCanvas* Canvas)
 	auto LocalPawn = (SDK::AFortPlayerPawnAthena*)PlayerController->AcknowledgedPawn;
 	if (!LocalPawn) bInLobby = true;
 
-	CameraController->DefaultFOV = 60.f;
-	//CameraController->CameraCache.POV.DesiredFOV = 60.f;
 
 
 	auto FortKismetLibrary = (SDK::UFortKismetLibrary*)SDK::UFortKismetLibrary::StaticClass();
